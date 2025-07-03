@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+a {
+    color: #340439;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #2c2a4a,#26032e80, #a71b71a8);
+    padding: 15px 0;
+    text-align: right;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 1.15em;
+}
+
+nav a:hover {
+    background-color: #0b2138;
+    cursor: pointer;
+    transition: 0.5s, background-color 0.5s;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+#home {
+    background-image: url(imgbg.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: left;
+}
+
+
+#home h1 {
+    font-size: 5em;
+    align-items: center;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#about div {
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #eeeeee;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#projects {
+    background-color: #f0d7ff;
+}
+
+#projects img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+#projects div {
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#contact {
+    background-image: linear-gradient(to right, #4b0082, #26032e80, #a71b71a8);
+    color: white;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact p {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    background-color: #0b2138;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #1c1355;
+    transition: 0.5s;
+    color: #ab3cec;
+}
+
+footer {
+    background-color: #2c2a4a;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+}
+
+footer a {
+    color: white;
+    padding: 0 10px;
+}
